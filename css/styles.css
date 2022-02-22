@@ -98,11 +98,11 @@ header {
 
 }
 
-.intro-image{
+.hero-img{
 	width: 300px;
     border-radius: 200px;
-    box-shadow: 1px 1px 8px #383838;
-    margin-top: 72px;
+    box-shadow: 1px 1px 3px #383838;
+    margin-top: 78px;
     object-fit: fill;
 
     

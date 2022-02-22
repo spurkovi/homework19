@@ -4,10 +4,10 @@ const tl = gsap.timeline({
 
   tl.fromTo(
     ".hero-img",
-    { scale: 1.3, borderRadius: "0rem" },
+    { scale: 1.3, borderRadius: "12rem" },
     {
       scale: 1,
-      borderRadius: "2rem",
+      borderRadius: "12rem",
       delay: 0.35,
       duration: 2.5,
       ease: "elastic.out(1.5,1)",
