@@ -1,0 +1,154 @@
+body{
+	font-family: Inter;
+	font-weight: 300;
+	font-size: 18px;
+
+}
+
+body, ul{
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 100px;
+	line-height: 120px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+ul li{
+	list-style: none;
+	margin: 30px 0;
+}
+
+h2 {
+	    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    
+}
+
+
+.skills-list {
+	font-family: 'Abril Fatface', cursive;
+
+}
+img {
+	/*This specifies that each image occupies only the width specified by the width of teh container*/
+max-width: 100%;
+}
+nav {
+    background-color: #dcd5ef;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 15px; /* 0 refers to top and bottom and 15 refers to roght and left*/
+	padding: 0;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+nav ul{
+	margin: o auto;
+	text-align: center;
+	padding: 30px;
+}
+
+header {
+    top: 70px;
+    position: relative;
+    margin-bottom: 120px;
+    background-color: #FAACA8;
+	background-image: linear-gradient(0deg, #FAACA8 0%, #DDD6F3 100%);
+    background-size: cover;
+    padding-bottom: 70px;
+
+    
+
+}
+.experiences-font{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 20px;s
+}
+.button{
+	border: 1px solid black;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: inline-block;
+    background-color: #000000;
+
+}
+.logo {
+	overflow: hidden;
+
+}
+
+.intro-image{
+	width: 300px;
+    border-radius: 200px;
+    box-shadow: 1px 1px 8px #383838;
+    margin-top: 72px;
+    object-fit: fill;
+
+    
+}
+.skills-list{
+	text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 90px;
+}
+
+
+.project{
+	padding-top: 30px;
+
+
+}
+.project-mygradient{
+
+	padding-top: 30px;
+	background: #FFCFE5;
+background: -webkit-linear-gradient(top left, #FFCFE5, #F1DEB6);
+background: -moz-linear-gradient(top left, #FFCFE5, #F1DEB6);
+background: linear-gradient(to bottom right, #FFCFE5, #F1DEB6);
+
+    background-size: cover;
+
+}
+
+.project .button {
+    margin-top: 10px;
+}
+
+.project-mygradient .button{
+	margin-top: 10px;
+}
+
+
+footer h2{
+	text-align: center;
+	font-size: 15px;
+	color: #ffffff;
+}
+
+footer{
+	text-align: center;
+	background-color: black;
+	padding: 50px 0;
+}
