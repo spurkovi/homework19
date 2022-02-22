@@ -8,7 +8,7 @@ const tl = gsap.timeline({
     {
       scale: 1,
       borderRadius: "12rem",
-      delay: 0.35,
+      delay: 2,
       duration: 2.5,
       ease: "elastic.out(1.5,1)",
     }
